@@ -23,10 +23,11 @@ body{
 
 .nav-links {
     width: 100%;
-    max-width: 250px;
+    max-width: 360px;
     list-style: none;
     display: flex;
     gap: 25px;
+    flex: 1;
 }
 
 .nav-links li a {
