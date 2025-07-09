@@ -2,12 +2,24 @@
 <html>
     <head>
         <title>Register</title>
-        <link rel="stylesheet" href="css/register.css">
+        <link rel="stylesheet" href="css/signup.css">
         <link rel="stylesheet" href="css/navbar.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
     <body>
         <div id="navbar"></div>
+        <div class="container">
+            <form class="register">
+                <h1>Sign Up</h1>
+                <input type="text" placeholder="Username" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <input type="password" placeholder="Confirm Password" required>
+                <button type="submit">Sign Up</button>
+                <p class="message">Already have an account?</p>
+                <a href="login.html" class="link">Sign In</a>
+            </form>
+        </div>
         <script src= "js/main.js"></script>
     </body>
 </html>
